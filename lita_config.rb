@@ -20,7 +20,11 @@ Lita.configure do |config|
   config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
   config.redis[:url] = ENV["REDISTOGO_URL"]   
-  config.http.port = ENV["PORT"] 
+  config.http.port = ENV["PORT"]
+  config.handlers.directions.google_api_key = ENV["GOOGLE_API_KEY"]
+  config.handlers.forecast.api_key = ENV["FORECASTIO_API_KEY"]
+  config.handlers.time.apikey = ENV["TIME_API_KEY"] 
+  config.handlers.weather.api_key = ENV["WEATHER_API_KEY"]
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
