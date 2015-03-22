@@ -25,6 +25,10 @@ Lita.configure do |config|
   config.handlers.forecast.api_key = ENV["FORECASTIO_API_KEY"]
   config.handlers.time.apikey = ENV["TIME_API_KEY"] 
   config.handlers.weather.api_key = ENV["WEATHER_API_KEY"]
+  config.handlers.yelpme.consumer_secret = ENV['CONSUMER_SECRET']
+  config.handlers.yelpme.consumer_key = ENV['CONSUMER_KEY']
+  config.handlers.yelpme.token = ENV['YELP_TOKEN_KEY']
+  config.handlers.yelpme.token_secret = ENV['YELP_TOKEN_SECRET']
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
