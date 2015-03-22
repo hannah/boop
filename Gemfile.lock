@@ -81,6 +81,8 @@ GEM
       lita (>= 3.3)
     lita-urban-dictionary (1.1.0)
       lita (>= 4.0)
+    lita-weather (0.0.4)
+      lita (>= 2.3)
     lita-wikipedia (0.0.3)
       lita (>= 3.1)
     lita-yelpme (0.1.2)
@@ -140,6 +142,7 @@ DEPENDENCIES
   lita-slack
   lita-time
   lita-urban-dictionary
+  lita-weather
   lita-wikipedia
   lita-yelpme
   lita-youtube
