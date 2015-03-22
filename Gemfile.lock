@@ -38,8 +38,6 @@ GEM
     lita-baby_elephant (0.0.5)
       lita (>= 3.3)
       read_it (= 0.0.2)
-    lita-bitly (0.0.2)
-      lita (>= 3.3)
     lita-catfacts (0.0.4)
       lita (>= 2.3)
     lita-catgif (0.0.2)
@@ -125,7 +123,6 @@ DEPENDENCIES
   lita
   lita-ambush
   lita-baby_elephant
-  lita-bitly
   lita-catfacts
   lita-catgif
   lita-coin
