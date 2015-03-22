@@ -1,14 +1,26 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "lita"
-
-# Uncomment to use the HipChat adapter
-# gem "lita-hipchat"
-
-# Uncomment to use the IRC adapter
-# gem "lita-irc"
-
-# Add handlers to give Lita new functionality.
-# For example:
-# gem "lita-google-images"
-# gem "lita-karma"
+gem 'lita'
+gem 'lita-ambush'
+gem 'lita-baby_elephant'
+gem 'lita-bitly'
+gem 'lita-catfacts'
+gem 'lita-catgif'
+gem 'lita-coin'
+gem 'lita-dice'
+gem 'lita-directions'
+gem 'lita-dogebomb'
+gem 'lita-eightball'
+gem 'lita-forecast'
+gem 'lita-fortune'
+gem 'lita-google'
+gem 'lita-google-images'
+gem 'lita-high-five'
+gem 'lita-pls'
+gem 'lita-poll'
+gem 'lita-slack'
+gem 'lita-time'
+gem 'lita-urban-dictionary'
+gem 'lita-wikipedia'
+gem 'lita-yelpme'
+gem 'lita-youtube'
