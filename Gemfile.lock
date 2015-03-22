@@ -59,8 +59,6 @@ GEM
       geocoder (~> 1.1, >= 1.1.9)
       hashie (~> 3.0)
       lita (>= 3.0.0)
-    lita-fortune (0.0.3)
-      lita (>= 2.0)
     lita-google (1.0.0)
       lita (>= 4.0)
     lita-google-images (2.0.0)
@@ -133,7 +131,6 @@ DEPENDENCIES
   lita-dogebomb
   lita-eightball
   lita-forecast
-  lita-fortune
   lita-google
   lita-google-images
   lita-high-five
