@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'lita'
 gem 'lita-ambush'
-gem 'lita-baby_elephant'
 gem 'lita-catfacts'
 gem 'lita-catgif'
 gem 'lita-coin'
